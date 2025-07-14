@@ -56,7 +56,7 @@ The video demo of the red ball tracker can be found [HERE](https://drive.google.
    Integrate an RGB-D sensor (e.g., Intel RealSense) to estimate the object's distance in real-world units, enabling more accurate velocity control and richer robot behavior.
 
 3. **Intelligent Search Behavior**  
-   Implement a search strategy for when the ball is lost — such as a spiral motion or SLAM-based visual memory — instead of remaining stationary or rotating in place.
+   Implement a search strategy for when the ball is lost such as a spiral motion or SLAM-based visual memory, instead of remaining stationary or rotating in place.
 
 
 
