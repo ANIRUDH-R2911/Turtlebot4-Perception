@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000301] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.000373] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.000406] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000430] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.000454] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000477] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000501] (-) JobUnselected: {'identifier': 'task_1'}
+[0.000524] (-) JobUnselected: {'identifier': 'task_2'}
+[0.000551] (-) JobUnselected: {'identifier': 'task_2_interfaces'}
+[0.000576] (-) JobUnselected: {'identifier': 'task_3'}
+[0.000597] (-) JobUnselected: {'identifier': 'task_4'}
+[0.000617] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000640] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000660] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.000685] (task_5) JobQueued: {'identifier': 'task_5', 'dependencies': OrderedDict([('cv_bridge', '/home/anirudh/ros2_ws/install/cv_bridge')])}
+[0.000718] (task_5) JobStarted: {'identifier': 'task_5'}
+[0.098839] (-) TimerEvent: {}
+[0.199165] (-) TimerEvent: {}
+[0.299452] (-) TimerEvent: {}
+[0.399806] (-) TimerEvent: {}
+[0.500167] (-) TimerEvent: {}
+[0.600465] (-) TimerEvent: {}
+[0.700783] (-) TimerEvent: {}
+[0.801053] (-) TimerEvent: {}
+[0.901343] (-) TimerEvent: {}
+[1.001670] (-) TimerEvent: {}
+[1.102005] (-) TimerEvent: {}
+[1.202305] (-) TimerEvent: {}
+[1.302609] (-) TimerEvent: {}
+[1.402908] (-) TimerEvent: {}
+[1.503189] (-) TimerEvent: {}
+[1.603481] (-) TimerEvent: {}
+[1.703853] (-) TimerEvent: {}
+[1.715199] (task_5) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/task_5', 'build', '--build-base', '/home/anirudh/ros2_ws/build/task_5/build', 'install', '--record', '/home/anirudh/ros2_ws/build/task_5/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/anirudh/ros2_ws/src/task_5', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'anirudh', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/anirudh/ros2_ws/install/cv_bridge/lib:/home/anirudh/ros2_ws/install/tutorial_interfaces/lib:/home/anirudh/ros2_ws/install/turtlesim/lib:/home/anirudh/ros2_ws/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/anirudh', 'OLDPWD': '/home/anirudh', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1651', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/anirudh/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'anirudh', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'anirudh', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/anirudh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/anirudh-Lenovo-Legion-Y540-15IRH-PG0:@/tmp/.ICE-unix/1614,unix/anirudh-Lenovo-Legion-Y540-15IRH-PG0:/tmp/.ICE-unix/1614', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d314ea5c_71d1_4ca5_b673_6a1aa962bfd5', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.108', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '24', 'AMENT_PREFIX_PATH': '/home/anirudh/ros2_ws/install/py_srvcli:/home/anirudh/ros2_ws/install/py_pubsub:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_5:/home/anirudh/ros2_ws/install/task_4:/home/anirudh/ros2_ws/install/task_3:/home/anirudh/ros2_ws/install/task_2:/home/anirudh/ros2_ws/install/task_2_interfaces:/home/anirudh/ros2_ws/install/task_1:/home/anirudh/ros2_ws/install/my_package:/home/anirudh/ros2_ws/install/cv_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/anirudh/ros2_ws/build/task_5', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/anirudh/ros2_ws/build/task_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/py_srvcli/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/home/anirudh/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/task_4/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/task_3/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/task_2/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/task_2_interfaces/local/lib/python3.10/dist-packages:/home/anirudh/ros2_ws/install/task_1/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/anirudh/ros2_ws/install/cv_bridge/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/anirudh/ros2_ws/install/cv_bridge:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_2_interfaces'}, 'shell': False}
+[1.803954] (-) TimerEvent: {}
+[1.904348] (-) TimerEvent: {}
+[2.004653] (-) TimerEvent: {}
+[2.104961] (-) TimerEvent: {}
+[2.205326] (-) TimerEvent: {}
+[2.305658] (-) TimerEvent: {}
+[2.326666] (task_5) StdoutLine: {'line': b'running egg_info\n'}
+[2.365342] (task_5) StdoutLine: {'line': b'writing ../../build/task_5/task_5.egg-info/PKG-INFO\n'}
+[2.366223] (task_5) StdoutLine: {'line': b'writing dependency_links to ../../build/task_5/task_5.egg-info/dependency_links.txt\n'}
+[2.366602] (task_5) StdoutLine: {'line': b'writing entry points to ../../build/task_5/task_5.egg-info/entry_points.txt\n'}
+[2.367043] (task_5) StdoutLine: {'line': b'writing requirements to ../../build/task_5/task_5.egg-info/requires.txt\n'}
+[2.367302] (task_5) StdoutLine: {'line': b'writing top-level names to ../../build/task_5/task_5.egg-info/top_level.txt\n'}
+[2.405788] (-) TimerEvent: {}
+[2.456016] (task_5) StdoutLine: {'line': b"reading manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'\n"}
+[2.458373] (task_5) StdoutLine: {'line': b"writing manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'\n"}
+[2.458870] (task_5) StdoutLine: {'line': b'running build\n'}
+[2.459019] (task_5) StdoutLine: {'line': b'running build_py\n'}
+[2.459362] (task_5) StdoutLine: {'line': b'copying task_5/__init__.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5\n'}
+[2.459767] (task_5) StdoutLine: {'line': b'copying task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5\n'}
+[2.460383] (task_5) StdoutLine: {'line': b'running install\n'}
+[2.472569] (task_5) StdoutLine: {'line': b'running install_lib\n'}
+[2.505893] (-) TimerEvent: {}
+[2.517148] (task_5) StdoutLine: {'line': b'copying /home/anirudh/ros2_ws/build/task_5/build/lib/task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5\n'}
+[2.518233] (task_5) StdoutLine: {'line': b'byte-compiling /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5/red_ball_tracker.py to red_ball_tracker.cpython-310.pyc\n'}
+[2.520593] (task_5) StdoutLine: {'line': b'running install_data\n'}
+[2.520868] (task_5) StdoutLine: {'line': b'copying resource/task_5 -> /home/anirudh/ros2_ws/install/task_5/share/ament_index/resource_index/packages\n'}
+[2.521092] (task_5) StdoutLine: {'line': b'copying package.xml -> /home/anirudh/ros2_ws/install/task_5/share/task_5\n'}
+[2.521464] (task_5) StdoutLine: {'line': b'copying launch/red_ball_tracker_launch.py -> /home/anirudh/ros2_ws/install/task_5/share/task_5/launch\n'}
+[2.521751] (task_5) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.565989] (task_5) StdoutLine: {'line': b"removing '/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.566506] (task_5) StdoutLine: {'line': b'Copying ../../build/task_5/task_5.egg-info to /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info\n'}
+[2.568334] (task_5) StdoutLine: {'line': b'running install_scripts\n'}
+[2.606000] (-) TimerEvent: {}
+[2.706353] (-) TimerEvent: {}
+[2.806618] (-) TimerEvent: {}
+[2.897830] (task_5) StdoutLine: {'line': b'Installing red_ball_tracker script to /home/anirudh/ros2_ws/install/task_5/lib/task_5\n'}
+[2.898368] (task_5) StdoutLine: {'line': b"writing list of installed files to '/home/anirudh/ros2_ws/build/task_5/install.log'\n"}
+[2.906748] (-) TimerEvent: {}
+[2.944631] (task_5) CommandEnded: {'returncode': 0}
+[2.959613] (task_5) JobEnded: {'identifier': 'task_5', 'rc': 0}
+[2.960625] (-) EventReactorShutdown: {}

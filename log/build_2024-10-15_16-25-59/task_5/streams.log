@@ -1,0 +1,28 @@
+[1.716s] Invoking command in '/home/anirudh/ros2_ws/src/task_5': CMAKE_PREFIX_PATH=/home/anirudh/ros2_ws/install/cv_bridge:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/anirudh/ros2_ws/install/cv_bridge/lib:/home/anirudh/ros2_ws/install/tutorial_interfaces/lib:/home/anirudh/ros2_ws/install/turtlesim/lib:/home/anirudh/ros2_ws/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anirudh/ros2_ws/build/task_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_5 build --build-base /home/anirudh/ros2_ws/build/task_5/build install --record /home/anirudh/ros2_ws/build/task_5/install.log --single-version-externally-managed install_data
+[2.326s] running egg_info
+[2.365s] writing ../../build/task_5/task_5.egg-info/PKG-INFO
+[2.366s] writing dependency_links to ../../build/task_5/task_5.egg-info/dependency_links.txt
+[2.366s] writing entry points to ../../build/task_5/task_5.egg-info/entry_points.txt
+[2.366s] writing requirements to ../../build/task_5/task_5.egg-info/requires.txt
+[2.367s] writing top-level names to ../../build/task_5/task_5.egg-info/top_level.txt
+[2.455s] reading manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'
+[2.458s] writing manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'
+[2.458s] running build
+[2.458s] running build_py
+[2.459s] copying task_5/__init__.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5
+[2.459s] copying task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5
+[2.460s] running install
+[2.472s] running install_lib
+[2.517s] copying /home/anirudh/ros2_ws/build/task_5/build/lib/task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5
+[2.518s] byte-compiling /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5/red_ball_tracker.py to red_ball_tracker.cpython-310.pyc
+[2.520s] running install_data
+[2.520s] copying resource/task_5 -> /home/anirudh/ros2_ws/install/task_5/share/ament_index/resource_index/packages
+[2.520s] copying package.xml -> /home/anirudh/ros2_ws/install/task_5/share/task_5
+[2.521s] copying launch/red_ball_tracker_launch.py -> /home/anirudh/ros2_ws/install/task_5/share/task_5/launch
+[2.521s] running install_egg_info
+[2.566s] removing '/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info' (and everything under it)
+[2.566s] Copying ../../build/task_5/task_5.egg-info to /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info
+[2.568s] running install_scripts
+[2.897s] Installing red_ball_tracker script to /home/anirudh/ros2_ws/install/task_5/lib/task_5
+[2.898s] writing list of installed files to '/home/anirudh/ros2_ws/build/task_5/install.log'
+[2.944s] Invoked command in '/home/anirudh/ros2_ws/src/task_5' returned '0': CMAKE_PREFIX_PATH=/home/anirudh/ros2_ws/install/cv_bridge:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/anirudh/ros2_ws/install/cv_bridge/lib:/home/anirudh/ros2_ws/install/tutorial_interfaces/lib:/home/anirudh/ros2_ws/install/turtlesim/lib:/home/anirudh/ros2_ws/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anirudh/ros2_ws/build/task_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_5 build --build-base /home/anirudh/ros2_ws/build/task_5/build install --record /home/anirudh/ros2_ws/build/task_5/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/task_5/task_5.egg-info/PKG-INFO
+writing dependency_links to ../../build/task_5/task_5.egg-info/dependency_links.txt
+writing entry points to ../../build/task_5/task_5.egg-info/entry_points.txt
+writing requirements to ../../build/task_5/task_5.egg-info/requires.txt
+writing top-level names to ../../build/task_5/task_5.egg-info/top_level.txt
+reading manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'
+writing manifest file '../../build/task_5/task_5.egg-info/SOURCES.txt'
+running build
+running build_py
+copying task_5/__init__.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5
+copying task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/build/task_5/build/lib/task_5
+running install
+running install_lib
+copying /home/anirudh/ros2_ws/build/task_5/build/lib/task_5/red_ball_tracker.py -> /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5
+byte-compiling /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5/red_ball_tracker.py to red_ball_tracker.cpython-310.pyc
+running install_data
+copying resource/task_5 -> /home/anirudh/ros2_ws/install/task_5/share/ament_index/resource_index/packages
+copying package.xml -> /home/anirudh/ros2_ws/install/task_5/share/task_5
+copying launch/red_ball_tracker_launch.py -> /home/anirudh/ros2_ws/install/task_5/share/task_5/launch
+running install_egg_info
+removing '/home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/task_5/task_5.egg-info to /home/anirudh/ros2_ws/install/task_5/lib/python3.10/site-packages/task_5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing red_ball_tracker script to /home/anirudh/ros2_ws/install/task_5/lib/task_5
+writing list of installed files to '/home/anirudh/ros2_ws/build/task_5/install.log'

@@ -1,0 +1,28 @@
+[1.323s] Invoking command in '/home/anirudh/ros2_ws/src/task_4': CMAKE_PREFIX_PATH=/home/anirudh/ros2_ws/install/cv_bridge:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/anirudh/ros2_ws/install/cv_bridge/lib:/home/anirudh/ros2_ws/install/tutorial_interfaces/lib:/home/anirudh/ros2_ws/install/turtlesim/lib:/home/anirudh/ros2_ws/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anirudh/ros2_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/ros2_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_4 build --build-base /home/anirudh/ros2_ws/build/task_4/build install --record /home/anirudh/ros2_ws/build/task_4/install.log --single-version-externally-managed install_data
+[1.755s] running egg_info
+[1.787s] writing ../../build/task_4/task_4.egg-info/PKG-INFO
+[1.787s] writing dependency_links to ../../build/task_4/task_4.egg-info/dependency_links.txt
+[1.787s] writing entry points to ../../build/task_4/task_4.egg-info/entry_points.txt
+[1.788s] writing requirements to ../../build/task_4/task_4.egg-info/requires.txt
+[1.788s] writing top-level names to ../../build/task_4/task_4.egg-info/top_level.txt
+[1.853s] reading manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+[1.854s] writing manifest file '../../build/task_4/task_4.egg-info/SOURCES.txt'
+[1.854s] running build
+[1.855s] running build_py
+[1.855s] copying task_4/__init__.py -> /home/anirudh/ros2_ws/build/task_4/build/lib/task_4
+[1.855s] copying task_4/object_detector.py -> /home/anirudh/ros2_ws/build/task_4/build/lib/task_4
+[1.855s] copying task_4/image_publisher.py -> /home/anirudh/ros2_ws/build/task_4/build/lib/task_4
+[1.856s] running install
+[1.864s] running install_lib
+[1.897s] running install_data
+[1.897s] copying resource/task_4 -> /home/anirudh/ros2_ws/install/task_4/share/ament_index/resource_index/packages
+[1.897s] copying package.xml -> /home/anirudh/ros2_ws/install/task_4/share/task_4
+[1.897s] copying launch/object_detector_launch.py -> /home/anirudh/ros2_ws/install/task_4/share/task_4/launch
+[1.898s] running install_egg_info
+[1.931s] removing '/home/anirudh/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info' (and everything under it)
+[1.932s] Copying ../../build/task_4/task_4.egg-info to /home/anirudh/ros2_ws/install/task_4/lib/python3.10/site-packages/task_4-0.0.0-py3.10.egg-info
+[1.933s] running install_scripts
+[2.209s] Installing image_publisher script to /home/anirudh/ros2_ws/install/task_4/lib/task_4
+[2.209s] Installing object_detector script to /home/anirudh/ros2_ws/install/task_4/lib/task_4
+[2.210s] writing list of installed files to '/home/anirudh/ros2_ws/build/task_4/install.log'
+[2.240s] Invoked command in '/home/anirudh/ros2_ws/src/task_4' returned '0': CMAKE_PREFIX_PATH=/home/anirudh/ros2_ws/install/cv_bridge:/home/anirudh/ros2_ws/install/tutorial_interfaces:/home/anirudh/ros2_ws/install/turtlesim:/home/anirudh/ros2_ws/install/task_2_interfaces LD_LIBRARY_PATH=/home/anirudh/ros2_ws/install/cv_bridge/lib:/home/anirudh/ros2_ws/install/tutorial_interfaces/lib:/home/anirudh/ros2_ws/install/turtlesim/lib:/home/anirudh/ros2_ws/install/task_2_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/anirudh/ros2_ws/build/task_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/anirudh/ros2_ws/install/task_4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/task_4 build --build-base /home/anirudh/ros2_ws/build/task_4/build install --record /home/anirudh/ros2_ws/build/task_4/install.log --single-version-externally-managed install_data
